@@ -44,7 +44,8 @@ namespace test2
         }
         static void Main(string[] args)
         {
-          
+          while (true)
+          { 
             Console.Write("Enter count of numbers ");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter code: 93,91,55,95,41");
@@ -77,6 +78,7 @@ namespace test2
                     Console.WriteLine("There's no such a code!");
                     break;
             }
+          }
            
         }
     }
